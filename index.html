@@ -1,296 +1,930 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=5.0, user-scalable=yes" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-S72LBY47R8"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "G-S72LBY47R8");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Pastebin.com - Not Found (#404)</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-            <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Pastebin.com - Not Found (#404)" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/raw/placeholder" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/raw/placeholder" />
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="0Avkwnk2Wnqb1JNno38FsAU-ZQXbgzvlMeurTPHjYTWiU4uRT1dqPuue0An8DGjhZ3QjcYvhA9wIkcl8kpkoTA==">
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0"/>
+<meta name="description" content="Muhammad Zain Akram — Full Stack Developer. React, Next.js, Node.js, Python. Based in Lahore, Pakistan."/>
+<meta name="theme-color" content="#0A0E17"/>
+<meta property="og:title" content="Muhammad Zain Akram — Full Stack Developer"/>
+<meta property="og:description" content="Building scalable web systems with React, Next.js, Node.js and Python."/>
+<meta property="og:type" content="website"/>
+<title>Muhammad Zain Akram — Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
+:root{
+  --bg:#0A0E17;
+  --surface:#111622;
+  --surface2:#161d2e;
+  --border:#1e2a3a;
+  --border2:#253347;
+  --amber:#FF8C42;
+  --amber2:#ffab6e;
+  --amber-glow:rgba(255,140,66,0.15);
+  --green:#4ADE80;
+  --text:#E2E8F0;
+  --muted:#64748B;
+  --muted2:#94a3b8;
+  --font:'Space Grotesk',sans-serif;
+  --mono:'JetBrains Mono',monospace;
+  --r:12px;
+  --r2:8px;
+}
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:var(--font);
+  line-height:1.6;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none;}
+ul{list-style:none;}
+img{max-width:100%;display:block;}
+button{font-family:inherit;cursor:pointer;border:none;background:none;}
+::selection{background:var(--amber);color:#000;}
+:focus-visible{outline:2px solid var(--amber);outline-offset:3px;border-radius:4px;}
 
-<link href="/assets/c80611c4/css/bootstrap.min.css" rel="stylesheet">
-<link href="/assets/d65ff796/dist/bootstrap-tagsinput.css" rel="stylesheet">        
-<link href="/themes/pastebin/css/vendors.bundle.css?30d6ece6979ee0cf5531" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?30d6ece6979ee0cf5531" rel="stylesheet">
-    </head>
-<body class="night-auto " data-pr="EykQt2a9" data-pa="" data-sar="1" data-abd="1" data-bd="1">
+/* ─── SCROLLBAR ─── */
+::-webkit-scrollbar{width:5px;}
+::-webkit-scrollbar-track{background:var(--bg);}
+::-webkit-scrollbar-thumb{background:var(--border2);border-radius:10px;}
 
+/* ─── CANVAS ─── */
+#bg-canvas{
+  position:fixed;inset:0;
+  width:100%;height:100%;
+  z-index:0;
+  pointer-events:none;
+}
 
-<svg style="height: 0; width: 0; position: absolute; visibility: hidden" xmlns="http://www.w3.org/2000/svg">
-    <symbol id="add" viewBox="0 0 1024 1024"><path fill="#ccc" d="M512 16C238 16 16 238 16 512s222 496 496 496 496-222 496-496S786 16 512 16z m288 552c0 13.2-10.8 24-24 24h-184v184c0 13.2-10.8 24-24 24h-112c-13.2 0-24-10.8-24-24v-184h-184c-13.2 0-24-10.8-24-24v-112c0-13.2 10.8-24 24-24h184v-184c0-13.2 10.8-24 24-24h112c13.2 0 24 10.8 24 24v184h184c13.2 0 24 10.8 24 24v112z"/></symbol>
-    <symbol id="search" viewBox="0 0 512 512"><path fill="#ccc" d="M354.2,216c0-38.2-13-70.7-40-97.7c-27-27-59.6-40-97.7-40s-70.7,13-97.7,40s-40,59.6-40,97.7 s13,70.7,40,97.7s59.6,40,97.7,40s70.7-13,97.7-40C340.2,285.8,354.2,253.2,354.2,216z M511.5,472c0,10.2-3.7,19.5-12.1,27.9 c-8.4,8.4-16.8,12.1-27.9,12.1c-11.2,0-20.5-3.7-27.9-12.1L339.3,393.8c-37.2,26.1-78.2,38.2-122.9,38.2 c-29.8,0-57.7-5.6-83.8-16.8c-27-11.2-50.3-27-68.9-46.5s-34.4-42.8-46.5-68.9C6.1,272.8,0.5,244.8,0.5,216s5.6-57.7,16.8-83.8 c11.2-27,27-50.3,46.5-68.9s42.8-34.4,68.9-46.5C159.7,5.6,187.6,0,216.4,0s57.7,5.6,83.8,16.8c27,11.2,50.3,27,68.9,46.5 c18.6,19.5,34.4,42.8,46.5,68.9c11.2,27,16.8,54.9,16.8,83.8c0,44.7-13,85.6-38.2,122.9L499.4,444 C507.8,451.5,511.5,460.8,511.5,472z"/></g></symbol>
-</svg>
-<div class="wrap">
+/* ─── LAYOUT ─── */
+.wrap{
+  position:relative;z-index:1;
+  max-width:1120px;margin:0 auto;
+  padding:0 clamp(16px,5vw,36px);
+}
 
-        
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
+/* ─── NAV ─── */
+nav{
+  position:fixed;top:0;left:0;right:0;
+  z-index:100;
+  background:rgba(10,14,23,0.8);
+  backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--border);
+}
+.nav-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:14px clamp(16px,5vw,36px);
+  max-width:1120px;margin:0 auto;
+}
+.nav-logo{
+  font-family:var(--mono);
+  font-size:13px;
+  color:var(--muted2);
+  letter-spacing:.04em;
+}
+.nav-logo strong{color:var(--amber);}
+.nav-links{
+  display:flex;align-items:center;gap:clamp(14px,3vw,28px);
+  font-size:13px;
+}
+.nav-links a{
+  color:var(--muted);
+  transition:color .15s;
+  font-weight:500;
+}
+.nav-links a:hover{color:var(--amber);}
+.nav-dot{
+  display:flex;align-items:center;gap:6px;
+  font-family:var(--mono);font-size:11px;color:var(--green);
+}
+.pulse{
+  width:7px;height:7px;border-radius:50%;
+  background:var(--green);
+  animation:pulse 2.2s infinite;
+}
+@keyframes pulse{
+  0%{box-shadow:0 0 0 0 rgba(74,222,128,.5);}
+  70%{box-shadow:0 0 0 8px rgba(74,222,128,0);}
+  100%{box-shadow:0 0 0 0 rgba(74,222,128,0);}
+}
 
-                        <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
+/* hide nav-links below 600px, show hamburger */
+@media(max-width:600px){
+  .nav-links .hide-mobile{display:none;}
+}
 
-                <div class="header__links h_1024">
-                    
-                                        <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
+/* ─── HERO ─── */
+.hero{
+  min-height:100svh;
+  display:flex;flex-direction:column;justify-content:center;
+  padding-top:80px;
+  padding-bottom:40px;
+}
+.hero-inner{
+  display:grid;
+  grid-template-columns:1fr min(380px,45%);
+  gap:48px;
+  align-items:center;
+}
+@media(max-width:820px){
+  .hero-inner{grid-template-columns:1fr;gap:36px;}
+}
+.hero-tag{
+  font-family:var(--mono);
+  font-size:12px;
+  color:var(--amber);
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  display:flex;align-items:center;gap:8px;
+  margin-bottom:18px;
+}
+.hero-tag::before{
+  content:'';width:28px;height:1px;
+  background:var(--amber);
+  display:inline-block;
+}
+h1.name{
+  font-size:clamp(36px,6vw,64px);
+  font-weight:700;
+  line-height:1.05;
+  letter-spacing:-.02em;
+}
+h1.name .line2{
+  color:transparent;
+  -webkit-text-stroke:1px var(--amber);
+  text-stroke:1px var(--amber);
+}
+.hero-desc{
+  margin-top:20px;
+  color:var(--muted2);
+  font-size:clamp(14px,2vw,16px);
+  max-width:500px;
+  line-height:1.75;
+}
+.hero-desc strong{color:var(--text);font-weight:500;}
+.hero-btns{
+  display:flex;flex-wrap:wrap;gap:12px;
+  margin-top:32px;
+}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:12px 22px;
+  border-radius:var(--r2);
+  font-size:14px;font-weight:600;
+  transition:all .18s ease;
+  white-space:nowrap;
+}
+.btn-fill{
+  background:var(--amber);
+  color:#000;
+}
+.btn-fill:hover{background:var(--amber2);transform:translateY(-1px);}
+.btn-outline{
+  border:1px solid var(--border2);
+  color:var(--text);
+}
+.btn-outline:hover{border-color:var(--amber);color:var(--amber);transform:translateY(-1px);}
 
-                <a class="header__btn" href="/">
-                    <span>paste</span>
-                </a>
+/* ─── STAT CARD ─── */
+.stat-card{
+  background:rgba(17,22,34,0.7);
+  border:1px solid var(--border);
+  border-radius:var(--r);
+  padding:24px;
+  backdrop-filter:blur(8px);
+  position:relative;
+  overflow:hidden;
+}
+.stat-card::before{
+  content:'';
+  position:absolute;inset:0;
+  background:linear-gradient(135deg,var(--amber-glow) 0%,transparent 60%);
+  pointer-events:none;
+}
+.stat-card-header{
+  font-family:var(--mono);
+  font-size:10px;letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--muted);
+  margin-bottom:20px;
+  display:flex;justify-content:space-between;
+  align-items:center;
+}
+.live-badge{
+  font-family:var(--mono);font-size:10px;
+  color:var(--green);
+  display:flex;align-items:center;gap:5px;
+}
+.stat-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+}
+.stat-item{
+  border-left:2px solid var(--border2);
+  padding-left:12px;
+}
+.stat-num{
+  font-family:var(--font);
+  font-size:28px;font-weight:700;
+  line-height:1;
+  color:var(--text);
+}
+.stat-lbl{
+  font-family:var(--mono);
+  font-size:10px;
+  color:var(--muted);
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  margin-top:5px;
+}
+.scroll-hint{
+  margin-top:40px;
+  font-family:var(--mono);
+  font-size:11px;
+  color:var(--muted);
+  display:flex;align-items:center;gap:8px;
+}
+.scroll-arrow{
+  animation:bounce 1.6s ease infinite;
+  display:inline-block;
+}
+@keyframes bounce{
+  0%,100%{transform:translateY(0);}
+  50%{transform:translateY(5px);}
+}
 
-                
-                <div class="header__search">
-                                            <form id="w0" class="search_form" action="https://pastebin.com/search" method="get">
-                            
-<input type="text" id="q" class="search_input" name="q" maxlength="128" placeholder="Search...">
+/* ─── SECTIONS ─── */
+section{padding:clamp(60px,8vw,100px) 0;}
+.section-tag{
+  font-family:var(--mono);
+  font-size:11px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--amber);
+  margin-bottom:10px;
+  display:flex;align-items:center;gap:8px;
+}
+.section-tag::before{
+  content:'';width:20px;height:1px;
+  background:var(--amber);display:inline-block;
+}
+.section-title{
+  font-size:clamp(24px,4vw,36px);
+  font-weight:700;
+  letter-spacing:-.01em;
+  margin-bottom:8px;
+}
+.section-sub{
+  color:var(--muted2);
+  font-size:15px;
+  max-width:520px;
+  margin-bottom:36px;
+}
+.divider{
+  height:1px;
+  background:linear-gradient(90deg,var(--border),transparent);
+  margin-bottom:40px;
+}
 
+/* ─── STACK ─── */
+.stack-table{border:1px solid var(--border);border-radius:var(--r);overflow:hidden;}
+.stack-row{
+  display:grid;
+  grid-template-columns:clamp(100px,22%,180px) 1fr;
+  gap:0;
+  border-bottom:1px solid var(--border);
+}
+.stack-row:last-child{border-bottom:none;}
+.stack-label{
+  padding:16px 20px;
+  border-right:1px solid var(--border);
+  background:var(--surface);
+}
+.stack-label p{
+  font-family:var(--mono);
+  font-size:11px;
+  color:var(--amber);
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:.07em;
+}
+.stack-label small{
+  color:var(--muted);
+  font-size:10px;
+  margin-top:2px;
+  display:block;
+  font-family:var(--mono);
+}
+.stack-chips{
+  padding:14px 20px;
+  display:flex;flex-wrap:wrap;gap:8px;
+  align-items:center;
+  background:var(--surface2);
+}
+.chip{
+  font-family:var(--mono);
+  font-size:12px;
+  padding:5px 12px;
+  border:1px solid var(--border2);
+  border-radius:20px;
+  color:var(--text);
+  background:var(--surface);
+  transition:all .15s;
+}
+.chip:hover{border-color:var(--amber);color:var(--amber);}
 
+/* ─── PROJECTS ─── */
+.proj-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));
+  gap:16px;
+}
+.proj-card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--r);
+  padding:22px;
+  display:flex;flex-direction:column;gap:12px;
+  transition:border-color .2s,transform .2s,box-shadow .2s;
+  opacity:0;
+  transform:translateY(16px);
+}
+.proj-card.visible{
+  animation:fadeUp .5s ease forwards;
+}
+@keyframes fadeUp{to{opacity:1;transform:translateY(0);}}
+.proj-card:hover{
+  border-color:var(--amber);
+  transform:translateY(-3px);
+  box-shadow:0 8px 32px rgba(255,140,66,0.08);
+}
+.proj-header{
+  display:flex;justify-content:space-between;align-items:center;
+}
+.proj-badge{
+  font-family:var(--mono);font-size:10px;
+  text-transform:uppercase;letter-spacing:.07em;
+  color:var(--amber);
+}
+.proj-lang{
+  font-family:var(--mono);font-size:11px;
+  color:var(--muted);
+}
+.proj-name{
+  font-size:17px;font-weight:600;
+  line-height:1.3;
+}
+.proj-desc{
+  color:var(--muted2);
+  font-size:13.5px;
+  line-height:1.65;
+  flex:1;
+}
+.proj-footer{
+  display:flex;justify-content:space-between;align-items:center;
+  padding-top:12px;
+  border-top:1px solid var(--border);
+  font-family:var(--mono);font-size:11px;color:var(--muted);
+}
+.proj-link{
+  color:var(--amber);font-size:12px;
+  display:flex;align-items:center;gap:4px;
+  transition:gap .15s;
+}
+.proj-card:hover .proj-link{gap:8px;}
+.proj-stars{display:flex;align-items:center;gap:4px;}
+.loading-text{
+  font-family:var(--mono);color:var(--muted);font-size:13px;
+  padding:32px 0;
+}
 
-                            <button type="submit" class="search_btn" aria-label="Search"><svg class="icon search"><use xlink:href="#search"></use></svg></button>
-                        </form>                                    </div>
+/* ─── EXPERIENCE ─── */
+.exp-card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-left:3px solid var(--amber);
+  border-radius:var(--r);
+  padding:clamp(20px,4vw,32px);
+  display:flex;justify-content:space-between;
+  gap:20px;flex-wrap:wrap;
+}
+.exp-role{font-size:18px;font-weight:600;margin-bottom:6px;}
+.exp-company{
+  font-family:var(--mono);
+  font-size:13px;color:var(--amber);
+  margin-bottom:12px;
+}
+.exp-desc{color:var(--muted2);font-size:14px;max-width:540px;line-height:1.7;}
+.exp-meta{
+  font-family:var(--mono);
+  font-size:12px;color:var(--muted);
+  text-align:right;white-space:nowrap;
+}
+.exp-meta strong{
+  display:block;
+  color:var(--green);font-size:13px;
+  margin-bottom:4px;
+}
 
-            </div>
+/* ─── CONTACT / ENDPOINTS ─── */
+.endpoints{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--r);
+  overflow:hidden;
+}
+.ep-row{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:clamp(14px,3vw,20px) clamp(16px,3vw,26px);
+  border-bottom:1px solid var(--border);
+  transition:background .15s;
+  gap:12px;flex-wrap:wrap;
+}
+.ep-row:last-child{border-bottom:none;}
+.ep-row:hover{background:rgba(255,140,66,0.04);}
+.ep-left{display:flex;align-items:center;gap:16px;}
+.ep-method{
+  font-family:var(--mono);font-size:11px;
+  color:var(--amber);
+  width:80px;flex-shrink:0;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+}
+.ep-val{font-size:14px;color:var(--text);word-break:break-all;}
+.ep-action{
+  font-family:var(--mono);font-size:12px;
+  color:var(--muted);
+  display:flex;align-items:center;gap:5px;
+  white-space:nowrap;
+  transition:color .15s;
+}
+.ep-row:hover .ep-action{color:var(--amber);}
 
-                        <div class="header__right">
+/* ─── FOOTER ─── */
+footer{
+  border-top:1px solid var(--border);
+  padding:clamp(24px,4vw,36px) 0;
+}
+.foot-inner{
+  display:flex;justify-content:space-between;align-items:center;
+  flex-wrap:wrap;gap:12px;
+}
+.foot-inner p{
+  font-family:var(--mono);font-size:11px;
+  color:var(--muted);
+}
 
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Login</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
+/* ─── 3D CARD TILT (desktop only) ─── */
+@media(hover:hover){
+  .proj-card{transform-style:preserve-3d;will-change:transform;}
+}
 
+/* ─── MOBILE REFINEMENTS ─── */
+@media(max-width:480px){
+  .stack-row{grid-template-columns:1fr;}
+  .stack-label{border-right:none;border-bottom:1px solid var(--border);}
+  .exp-meta{text-align:left;}
+}
+</style>
+</head>
+<body>
+
+<!-- 3D Particle Background Canvas -->
+<canvas id="bg-canvas"></canvas>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <div class="nav-logo"><strong>zain</strong>.dev</div>
+    <div class="nav-links">
+      <a href="#stack" class="hide-mobile">Stack</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience" class="hide-mobile">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-dot"><span class="pulse"></span>Available</div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-inner">
+    <div>
+      <div class="hero-tag">Full Stack Developer · Lahore, Pakistan</div>
+      <h1 class="name">
+        Muhammad<br>
+        <span class="line2">Zain Akram</span>
+      </h1>
+      <p class="hero-desc">
+        I build complete operational systems — not just interfaces.
+        <strong>Banking platforms, health systems, tax engines, booking apps.</strong>
+        Working across React, Next.js, Node.js, and Python with real-world production experience from <strong>CodeAlpha internship</strong> and 14+ shipped projects.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-fill">View Projects →</a>
+        <a href="mailto:zainakram.work4@gmail.com" class="btn btn-outline">Get In Touch</a>
+        <a href="https://github.com/zainakramwork4" target="_blank" rel="noopener" class="btn btn-outline">GitHub ↗</a>
+      </div>
+      <div class="scroll-hint">
+        <span class="scroll-arrow">↓</span>
+        Scroll to explore
+      </div>
+    </div>
+
+    <div class="stat-card">
+      <div class="stat-card-header">
+        <span>LIVE STATS</span>
+        <span class="live-badge"><span class="pulse" style="width:5px;height:5px;"></span>github.com/zainakramwork4</span>
+      </div>
+      <div class="stat-grid">
+        <div class="stat-item">
+          <div class="stat-num" id="s-repos">—</div>
+          <div class="stat-lbl">Repositories</div>
         </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-                        
-                        
-                                    
-            
-            
-<div class="page -top -right">
-
-    <div class="content__title">Not Found (#404)</div>
-    <div class="content__text">
-        <div class="notice -no-margin">
-            Page not found.        </div>
-    </div>
-
-</div>
-            <div style="clear: both;"></div>
-
-                                </div>
-
-        <div class="sidebar h_1024">
-            
-
-
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/NChVCs2Q?source=public_pastes">Crypto Money Attack</a>
-                <div class="details">
-                                            CSS |
-                    
-                    1 min ago
-                    | 0.21 KB                </div>
-            </li>
-                    <li>
-                <a href="/5xehaKBg?source=public_pastes">This summer smells like money</a>
-                <div class="details">
-                                            CSS |
-                    
-                    2 min ago
-                    | 0.21 KB                </div>
-            </li>
-                    <li>
-                <a href="/cdZkghm5?source=public_pastes">API Glitch (Up to 1 BTC)</a>
-                <div class="details">
-                                            CSS |
-                    
-                    2 min ago
-                    | 0.21 KB                </div>
-            </li>
-                    <li>
-                <a href="/VZNf9rFu?source=public_pastes">This summer smells like money</a>
-                <div class="details">
-                                            CSS |
-                    
-                    36 min ago
-                    | 0.30 KB                </div>
-            </li>
-                    <li>
-                <a href="/RaK7HK2B?source=public_pastes">API Glitch (Up to 1 BTC)</a>
-                <div class="details">
-                                            CSS |
-                    
-                    38 min ago
-                    | 0.30 KB                </div>
-            </li>
-                    <li>
-                <a href="/rQK3p5jE?source=public_pastes">Crypto Money Attack</a>
-                <div class="details">
-                                            CSS |
-                    
-                    39 min ago
-                    | 0.30 KB                </div>
-            </li>
-                    <li>
-                <a href="/KdRDgVgg?source=public_pastes">redteam-deface</a>
-                <div class="details">
-                                            HTML |
-                    
-                    3 hours ago
-                    | 3.15 KB                </div>
-            </li>
-                    <li>
-                <a href="/C0bCPgxY?source=public_pastes">Untitled</a>
-                <div class="details">
-                    
-                    7 hours ago
-                    | 0.04 KB                </div>
-            </li>
-        
-    </ul>
-            
-
-    <div class="sidebar__sticky -on">
-                    </div>
+        <div class="stat-item">
+          <div class="stat-num" id="s-stars">—</div>
+          <div class="stat-lbl">Stars</div>
         </div>
-    </div>
-</div>
-
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/news">news</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/pro" class="pro">pro</a>
-
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a><span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-                                
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2026 Pastebin</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
+        <div class="stat-item">
+          <div class="stat-num" id="s-langs">—</div>
+          <div class="stat-lbl">Languages</div>
         </div>
+        <div class="stat-item">
+          <div class="stat-num" id="s-since">2019</div>
+          <div class="stat-lbl">Active Since</div>
+        </div>
+      </div>
     </div>
+  </div>
+</section>
+
+<!-- STACK -->
+<section id="stack" class="wrap">
+  <div class="section-tag">Architecture</div>
+  <div class="section-title">Tech Stack</div>
+  <p class="section-sub">Every system is built the same disciplined way — interface, logic, data — each handled with the right tool.</p>
+  <div class="divider"></div>
+
+  <div class="stack-table">
+    <div class="stack-row">
+      <div class="stack-label"><p>Frontend</p><small>UI Layer</small></div>
+      <div class="stack-chips">
+        <span class="chip">React</span>
+        <span class="chip">Next.js</span>
+        <span class="chip">Tailwind CSS</span>
+        <span class="chip">Bootstrap</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">HTML5 / CSS3</span>
+      </div>
+    </div>
+    <div class="stack-row">
+      <div class="stack-label"><p>Backend</p><small>API Layer</small></div>
+      <div class="stack-chips">
+        <span class="chip">Node.js</span>
+        <span class="chip">Express.js</span>
+        <span class="chip">Python</span>
+        <span class="chip">FastAPI</span>
+        <span class="chip">JWT Auth</span>
+        <span class="chip">REST APIs</span>
+      </div>
+    </div>
+    <div class="stack-row">
+      <div class="stack-label"><p>Database</p><small>Data Layer</small></div>
+      <div class="stack-chips">
+        <span class="chip">MongoDB</span>
+        <span class="chip">PostgreSQL</span>
+        <span class="chip">MySQL</span>
+        <span class="chip">Mongoose</span>
+      </div>
+    </div>
+    <div class="stack-row">
+      <div class="stack-label"><p>Tooling</p><small>Ship Layer</small></div>
+      <div class="stack-chips">
+        <span class="chip">Git / GitHub</span>
+        <span class="chip">Vercel</span>
+        <span class="chip">VS Code</span>
+        <span class="chip">Postman</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="wrap">
+  <div class="section-tag">Live from GitHub</div>
+  <div class="section-title">Systems Directory</div>
+  <p class="section-sub">Pulled live from <code style="font-family:var(--mono);color:var(--amber);font-size:13px;">github.com/zainakramwork4</code> — every card is a real, working repository.</p>
+  <div class="divider"></div>
+  <div class="proj-grid" id="proj-grid">
+    <div class="loading-text">&gt; fetching repository index…</div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="wrap">
+  <div class="section-tag">Credential</div>
+  <div class="section-title">Experience</div>
+  <div class="divider"></div>
+  <div class="exp-card">
+    <div>
+      <div class="exp-role">Full Stack Developer Intern</div>
+      <div class="exp-company">CodeAlpha · Remote</div>
+      <p class="exp-desc">
+        Built production-grade full stack applications — including a complete e-commerce platform with JWT authentication, shopping cart, product catalog, and order processing. Worked across React, Next.js, Express.js, and MongoDB throughout the internship program. Shipped 60+ projects across diverse domains.
+      </p>
+    </div>
+    <div class="exp-meta">
+      <strong>Internship</strong>
+      Full Stack Track<br>
+      Web Development
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="wrap">
+  <div class="section-tag">Connect</div>
+  <div class="section-title">Get In Touch</div>
+  <p class="section-sub">Open to freelance work and full-time roles. Pick a channel below.</p>
+  <div class="divider"></div>
+  <div class="endpoints">
+    <a class="ep-row" href="mailto:zainakram.work4@gmail.com">
+      <div class="ep-left">
+        <span class="ep-method">Email</span>
+        <span class="ep-val">zainakram.work4@gmail.com</span>
+      </div>
+      <span class="ep-action">Send message →</span>
+    </a>
+    <a class="ep-row" href="https://github.com/zainakramwork4" target="_blank" rel="noopener">
+      <div class="ep-left">
+        <span class="ep-method">GitHub</span>
+        <span class="ep-val">github.com/zainakramwork4</span>
+      </div>
+      <span class="ep-action">View profile →</span>
+    </a>
+    <a class="ep-row" href="https://www.linkedin.com/in/muhammad-zain-akram-/" target="_blank" rel="noopener">
+      <div class="ep-left">
+        <span class="ep-method">LinkedIn</span>
+        <span class="ep-val">in/muhammad-zain-akram</span>
+      </div>
+      <span class="ep-action">Connect →</span>
+    </a>
+    <a class="ep-row" href="https://www.fiverr.com" target="_blank" rel="noopener">
+      <div class="ep-left">
+        <span class="ep-method">Fiverr</span>
+        <span class="ep-val">Available for freelance projects</span>
+      </div>
+      <span class="ep-action">Hire me →</span>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-inner">
+    <p>© 2026 Muhammad Zain Akram — Built in Lahore, Pakistan.</p>
+    <p>React · Next.js · Node.js · Python</p>
+  </div>
 </footer>
-    
 
-
-    
-<div class="popup-container">
-
-                <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-                <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup" aria-label="Sign Up">
-                    <img src="/themes/pastebin/img/hello.webp" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    
-    
-</div>
-    
-
-<span class="cd-top"></span>
-
-<script src="/assets/9ce1885/jquery.min.js"></script>
-<script src="/assets/f04f76b8/yii.js"></script>
-<script src="/assets/d65ff796/dist/bootstrap-tagsinput.js"></script>
 <script>
-    const POST_EXPIRATION_NEVER = 'N';
-    const POST_EXPIRATION_BURN = 'B';
-    const POST_STATUS_PUBLIC = '0';
-    const POST_STATUS_UNLISTED = '1';
-</script>
-<script src="/themes/pastebin/js/vendors.bundle.js?30d6ece6979ee0cf5531"></script>
-<script src="/themes/pastebin/js/app.bundle.js?30d6ece6979ee0cf5531"></script>
+/* ─── 3D PARTICLE BACKGROUND ─── */
+(function(){
+  var canvas = document.getElementById('bg-canvas');
+  var ctx = canvas.getContext('2d');
+  var W, H, particles, mouse = {x:-9999,y:-9999};
+  var PARTICLE_COUNT = window.innerWidth < 600 ? 50 : 110;
+  var MAX_DIST = 130;
+  var AMBER = '255,140,66';
+  var BLUE = '100,148,255';
 
+  function resize(){
+    W = canvas.width = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+  }
+
+  function Particle(){
+    this.x = Math.random()*W;
+    this.y = Math.random()*H;
+    this.vx = (Math.random()-.5)*.4;
+    this.vy = (Math.random()-.5)*.4;
+    this.r = Math.random()*1.8+.6;
+    this.color = Math.random()>.7 ? AMBER : BLUE;
+    this.alpha = Math.random()*.6+.2;
+  }
+  Particle.prototype.update = function(){
+    this.x += this.vx;
+    this.y += this.vy;
+    if(this.x<0||this.x>W) this.vx*=-1;
+    if(this.y<0||this.y>H) this.vy*=-1;
+    // subtle mouse repel
+    var dx = this.x - mouse.x;
+    var dy = this.y - mouse.y;
+    var d = Math.sqrt(dx*dx+dy*dy);
+    if(d < 80){
+      this.vx += dx/d*.04;
+      this.vy += dy/d*.04;
+    }
+    // clamp speed
+    var speed = Math.sqrt(this.vx*this.vx+this.vy*this.vy);
+    if(speed>.8){this.vx*=.8/speed;this.vy*=.8/speed;}
+  };
+
+  function init(){
+    resize();
+    particles = [];
+    for(var i=0;i<PARTICLE_COUNT;i++) particles.push(new Particle());
+  }
+
+  function drawConnections(){
+    for(var i=0;i<particles.length;i++){
+      for(var j=i+1;j<particles.length;j++){
+        var dx=particles[i].x-particles[j].x;
+        var dy=particles[i].y-particles[j].y;
+        var d=Math.sqrt(dx*dx+dy*dy);
+        if(d<MAX_DIST){
+          var a=.25*(1-d/MAX_DIST);
+          ctx.beginPath();
+          ctx.strokeStyle='rgba('+particles[i].color+','+a+')';
+          ctx.lineWidth=.6;
+          ctx.moveTo(particles[i].x,particles[i].y);
+          ctx.lineTo(particles[j].x,particles[j].y);
+          ctx.stroke();
+        }
+      }
+    }
+  }
+
+  function loop(){
+    ctx.clearRect(0,0,W,H);
+    for(var i=0;i<particles.length;i++){
+      particles[i].update();
+      ctx.beginPath();
+      ctx.arc(particles[i].x,particles[i].y,particles[i].r,0,Math.PI*2);
+      ctx.fillStyle='rgba('+particles[i].color+','+particles[i].alpha+')';
+      ctx.fill();
+    }
+    drawConnections();
+    requestAnimationFrame(loop);
+  }
+
+  window.addEventListener('resize',function(){
+    resize();
+    PARTICLE_COUNT = window.innerWidth < 600 ? 50 : 110;
+  });
+  window.addEventListener('mousemove',function(e){mouse.x=e.clientX;mouse.y=e.clientY;},false);
+  window.addEventListener('touchmove',function(e){
+    if(e.touches[0]){mouse.x=e.touches[0].clientX;mouse.y=e.touches[0].clientY;}
+  },{passive:true});
+
+  init();
+  loop();
+})();
+
+/* ─── 3D CARD TILT ─── */
+(function(){
+  if(!window.matchMedia('(hover:hover)').matches) return;
+  function tilt(card){
+    card.addEventListener('mousemove',function(e){
+      var rect=card.getBoundingClientRect();
+      var cx=rect.left+rect.width/2;
+      var cy=rect.top+rect.height/2;
+      var dx=(e.clientX-cx)/(rect.width/2);
+      var dy=(e.clientY-cy)/(rect.height/2);
+      card.style.transform='rotateX('+(-dy*6)+'deg) rotateY('+(dx*6)+'deg) translateY(-3px)';
+    });
+    card.addEventListener('mouseleave',function(){
+      card.style.transform='';
+    });
+  }
+  function initTilt(){
+    document.querySelectorAll('.proj-card').forEach(tilt);
+  }
+  window.addEventListener('projloaded',initTilt);
+})();
+
+/* ─── INTERSECTION OBSERVER (scroll reveal) ─── */
+var io = new IntersectionObserver(function(entries){
+  entries.forEach(function(entry){
+    if(entry.isIntersecting){
+      entry.target.classList.add('visible');
+      io.unobserve(entry.target);
+    }
+  });
+},{threshold:0.08,rootMargin:'0px 0px -30px 0px'});
+
+/* ─── COUNT UP ─── */
+function countUp(el,target){
+  if(window.matchMedia('(prefers-reduced-motion:reduce)').matches){el.textContent=target;return;}
+  var s=0,dur=900,st=null;
+  function step(ts){
+    if(!st) st=ts;
+    var p=Math.min((ts-st)/dur,1);
+    var e=1-Math.pow(1-p,3);
+    el.textContent=Math.floor(e*target);
+    if(p<1) requestAnimationFrame(step);
+    else el.textContent=target;
+  }
+  requestAnimationFrame(step);
+}
+
+/* ─── PROJECT META ─── */
+var META={
+  "codealpha_ecommercestore":{cat:"Internship",desc:"Full stack e-commerce store with product catalog, cart, JWT auth, and order processing."},
+  "banking-website":{cat:"Financial System",desc:"Digital banking interface for accounts, transfers, and transaction history management."},
+  "healthfitnesscare":{cat:"Health System",desc:"Wellness and fitness tracking platform for health goals and medical records."},
+  "indrive":{cat:"Mobility App",desc:"Ride-hailing app clone — booking flow, driver matching, and real-time updates."},
+  "netflix":{cat:"Media App",desc:"Netflix-style streaming catalog UI with browsing rows and playback interface."},
+  "pakbooking":{cat:"Booking System",desc:"Travel and ticket booking platform designed for the Pakistani market."},
+  "portfolio":{cat:"Dev Tooling",desc:"Personal portfolio showcasing full stack development projects and skills."},
+  "secpars_app":{cat:"Data System",desc:"Structured data parsing and processing system for security-domain applications."},
+  "smart-energy-consumption":{cat:"IoT / Monitoring",desc:"Energy usage monitoring and visualization system for smart consumption tracking."},
+  "smart-grocery-shopping-":{cat:"Retail System",desc:"Grocery platform with inventory-aware shopping and recommendation engine."},
+  "smartmeeting":{cat:"Productivity",desc:"Meeting scheduler and coordination tool with calendar integration."},
+  "ssh-setup-github-macos":{cat:"Dev Tooling",desc:"Reference scripts and guide for SSH and GitHub setup on macOS systems."},
+  "taxmanagement-system":{cat:"Financial System",desc:"Tax filing, calculation, and record-keeping management application."},
+  "terasols-management-system":{cat:"Internship",desc:"Internal management system built during the Terasols internship engagement."}
+};
+
+function timeAgo(d){
+  var diff=Math.floor((Date.now()-new Date(d))/1000);
+  var u=[['yr',31536000],['mo',2592000],['wk',604800],['d',86400],['hr',3600],['min',60]];
+  for(var i=0;i<u.length;i++){var v=Math.floor(diff/u[i][1]);if(v>=1) return v+u[i][0]+' ago';}
+  return 'just now';
+}
+function pretty(n){return n.replace(/[-_]+/g,' ').replace(/\s+$/,'').replace(/\b\w/g,function(c){return c.toUpperCase();});}
+
+function renderProjects(repos){
+  var grid=document.getElementById('proj-grid');
+  grid.innerHTML='';
+  repos.forEach(function(r,i){
+    var k=r.name.toLowerCase();
+    var m=META[k]||{cat:'Project',desc:r.description||'A full stack project built and maintained on GitHub.'};
+    var a=document.createElement('a');
+    a.href=r.html_url; a.target='_blank'; a.rel='noopener';
+    a.className='proj-card';
+    a.style.animationDelay=(i*0.055)+'s';
+    a.innerHTML=
+      '<div class="proj-header">'+
+        '<span class="proj-badge">'+m.cat+'</span>'+
+        '<span class="proj-lang">'+(r.language||'—')+'</span>'+
+      '</div>'+
+      '<div class="proj-name">'+pretty(r.name)+'</div>'+
+      '<div class="proj-desc">'+m.desc+'</div>'+
+      '<div class="proj-footer">'+
+        '<span class="proj-stars">★ '+(r.stargazers_count||0)+'</span>'+
+        '<span>'+timeAgo(r.updated_at)+'</span>'+
+        '<span class="proj-link">View source →</span>'+
+      '</div>';
+    grid.appendChild(a);
+    io.observe(a);
+  });
+  window.dispatchEvent(new Event('projloaded'));
+}
+
+function updateStats(repos){
+  var stars=repos.reduce(function(s,r){return s+(r.stargazers_count||0);},0);
+  var langs={};
+  repos.forEach(function(r){if(r.language) langs[r.language]=1;});
+  countUp(document.getElementById('s-repos'),repos.length);
+  countUp(document.getElementById('s-stars'),stars);
+  countUp(document.getElementById('s-langs'),Object.keys(langs).length);
+}
+
+var FALLBACK=[
+  {name:"CodeAlpha_EcommerceStore",html_url:"https://github.com/zainakramwork4/CodeAlpha_EcommerceStore",language:"JavaScript",stargazers_count:0,updated_at:"2026-06-21"},
+  {name:"Banking-website",html_url:"https://github.com/zainakramwork4/Banking-website",language:"JavaScript",stargazers_count:0,updated_at:"2026-01-01"},
+  {name:"healthfitnesscare",html_url:"https://github.com/zainakramwork4/healthfitnesscare",language:"JavaScript",stargazers_count:0,updated_at:"2025-12-31"},
+  {name:"indrive",html_url:"https://github.com/zainakramwork4/indrive",language:"JavaScript",stargazers_count:0,updated_at:"2025-10-23"},
+  {name:"netflix",html_url:"https://github.com/zainakramwork4/netflix",language:"JavaScript",stargazers_count:0,updated_at:"2025-12-31"},
+  {name:"pakbooking",html_url:"https://github.com/zainakramwork4/pakbooking",language:"JavaScript",stargazers_count:0,updated_at:"2025-09-01"},
+  {name:"secpars_app",html_url:"https://github.com/zainakramwork4/secpars_app",language:"Python",stargazers_count:0,updated_at:"2025-08-01"},
+  {name:"Smart-Energy-Consumption",html_url:"https://github.com/zainakramwork4/Smart-Energy-Consumption",language:"Python",stargazers_count:0,updated_at:"2025-07-01"},
+  {name:"smart-grocery-shopping-",html_url:"https://github.com/zainakramwork4/smart-grocery-shopping-",language:"JavaScript",stargazers_count:0,updated_at:"2025-06-01"},
+  {name:"smartmeeting",html_url:"https://github.com/zainakramwork4/smartmeeting",language:"JavaScript",stargazers_count:0,updated_at:"2026-02-27"},
+  {name:"taxmanagement-system",html_url:"https://github.com/zainakramwork4/taxmanagement-system",language:"JavaScript",stargazers_count:0,updated_at:"2025-04-17"},
+  {name:"Terasols-Management-System",html_url:"https://github.com/zainakramwork4/Terasols-Management-System",language:"JavaScript",stargazers_count:0,updated_at:"2025-12-16"},
+  {name:"Ssh-Setup-Github-Macos",html_url:"https://github.com/zainakramwork4/Ssh-Setup-Github-Macos",language:"Shell",stargazers_count:0,updated_at:"2025-05-01"}
+];
+
+fetch('https://api.github.com/users/zainakramwork4/repos?per_page=100&sort=updated')
+  .then(function(res){if(!res.ok) throw new Error();return res.json();})
+  .then(function(data){
+    var f=data.filter(function(r){return !r.fork;});
+    if(!f.length) throw new Error();
+    renderProjects(f);
+    updateStats(f);
+  })
+  .catch(function(){
+    renderProjects(FALLBACK);
+    updateStats(FALLBACK);
+  });
+</script>
 </body>
 </html>
